@@ -17,14 +17,14 @@ git submodule add https://github.com/stefanzweifel/kirby-laravel-mix-helper.git 
 After installing the plugin the `mix()` helper is available to you. In your template you can then use it in your `link`- and `script`-tags like this:
 
 ```html
-<link rel="stylesheet" href="{{ mix('/assets/css/main.css') }}">
+<link rel="stylesheet" href="<?php echo mix('/assets/css/main.css') ?>">
 ```
 
 The `mix` helper will read your `mix-manifest.json` file and append the cache busting ID to the asset path.
 The rendered HTML will look like this:
 
 ```html
-<link rel="stylesheet" href="/assets/css/2018.css?id=0ae511c15cfbd440f579">
+<link rel="stylesheet" href="/assets/css/main.css?id=0ae511c15cfbd440f579">
 ```
 
 ## Configuration

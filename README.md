@@ -6,6 +6,27 @@ Kirby Plugin to use [laravel-mix](https://github.com/JeffreyWay/laravel-mix)'s V
 
 Place `kirby-laravel-mix-helper.php` into `/site/plugins/kirby-laravel-mix-helper` folder.
 
+### Advanced: Composer
+
+You can also install this plugin through composer. Execute the following command in the root of your kirby plugin.
+Composer will place the files automatically in the plugins directory.
+
+```
+composer require wnx/kirby-laravel-mix-helper
+```
+
+#### Change Installation Path
+
+If you have a custom folder structure in your kirby project, you can also adjust the installation path within your `composer.json`. Add the following setting:
+
+```json
+"extra": {
+    "installer-paths": {
+        "dist/site/plugins/kirby-laravel-mix-helper": ["wnx/kirby-laravel-mix-helper"]
+    }
+}
+```
+
 ### Advanced: Git Submodules
 
 ```bash

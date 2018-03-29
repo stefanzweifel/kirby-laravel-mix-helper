@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [1.0.0]() - 2018-02-03
+## [1.0.0]() - 2018-03-29
+
 ### Added
-- Plugin File
+- Added Plugin
+- Publish Package on [packagist.org](https://packagist.org/packages/wnx/kirby-laravel-mix-helper)
+

@@ -1,6 +1,7 @@
 {
-    "name": "stefanzweifel/kirby-laravel-mix-helper",
+    "name": "wnx/kirby-laravel-mix-helper",
     "description": "Helper to use Version Busting of Laravel Mix",
+    "type": "kirby-plugin",
     "authors": [
         {
             "name": "Stefan Zweifel",
@@ -10,5 +11,7 @@
     "keywords": ["kirby", "cms", "laravel", "laravel-mix", "plugin"],
     "homepage": "https://github.com/stefanzweifel/kirby-laravel-mix-helper",
     "license": "MIT",
-    "require": {}
+    "require": {
+        "composer/installers": "~1.0"
+    }
 }

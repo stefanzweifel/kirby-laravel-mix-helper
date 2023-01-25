@@ -1,7 +1,7 @@
 {
   "name": "kirby-laravel-mix-helper",
   "description": "Helper to use Version Busting of Laravel Mix",
-  "author": "Stefan Zweifel <hello@stefanzweifel.io>",
+  "author": "Stefan Zweifel <stefan@stefanzweifel.dev>",
   "version": "1.0.0",
   "type": "kirby-plugin",
   "license": "MIT"
